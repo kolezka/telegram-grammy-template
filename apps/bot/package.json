@@ -1,5 +1,5 @@
 {
-  "name": "@strefaruchu/gateway-bot",
+  "name": "@kolezka/bot",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -36,6 +36,7 @@
     "dotenv": "^17.2.4",
     "grammy": "^1.40.0",
     "grammy-middlewares": "^1.0.11",
+    "source-map-support": "^0.5.21",
     "telegraf-middleware-console-time": "^3.0.0"
   }
 }
