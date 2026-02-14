@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // Target and module settings for source injection
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    // Environment and language features
+    "lib": ["ESNext"],
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    // Emit settings - no build required
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+
+    // NestJS decorator support
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    // Type checking and strictness
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Disabled by default but useful flags
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false,
+
+    "paths": {
+      "@kolezka/database": ["./packages/database/src"],
+      "@kolezka/utils": ["./packages/utils/src"]
+    }
+  }
+}

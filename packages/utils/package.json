@@ -1,0 +1,7 @@
+{
+  "name": "@kolezka/utils",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.2.3"
+  }
+}
